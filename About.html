@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About you</title>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-  <p> An introduction of the designers. </p>
+<body id="myPage">
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>An introduction of the designers.</p>
+
+<div class="w3-row"><br>
+
+
+
+<div class="w3-half">
+  <img src="https://e1.pxfuel.com/desktop-wallpaper/66/113/desktop-wallpaper-cool-anime-boy-1080x1080-anime-boy-blue-1080x1080-mafia-anime-guy.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Shubham Kumar</h3>
+  <p>Web Developer</p>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Github"><i class="fa fa-github"></i></a>
+  <a class="w3-button w3-large w3-teal" target="_blank" href="https://shubhamiitpkd.netlify.app" title="globe"><i class="fa fa-globe"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+
+<div class="w3-half">
+  <img src="https://amritanshu19.github.io/images/my_av.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Amritanshu Raj</h3>
+  <p>AI and Automation engineer</p>
+  <a class="w3-button w3-large w3-teal" href="https://github.com/amritanshu19" target="_blank" title="Github"><i class="fa fa-github"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://amritanshu19.github.io/" target="_blank" title="globe"><i class="fa fa-globe"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/amritanshu1937/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/in/amritanshu-raj-42311a168/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
 </html>
