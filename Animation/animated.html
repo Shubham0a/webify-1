@@ -49,8 +49,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-white">
         <p><b>3. Grave of the Fireflies (1988)</b></p>
         <p>
-          Grave of the Fireflies (Japanese: 火垂るの墓, Hepburn: Hotaru no Haka) is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli for Shinchosha Publishing. The film stars Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara and Akemi Yamaguchi. Set in the city of Kobe, Japan in June 1945, it tells the story of two siblings and war orphans, Seita and Setsuko, and their desperate struggle to survive during the final months of the Second World War. Grave of the Fireflies has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation.
-      </p>      
+          Grave of the Fireflies (Japanese: 火垂るの墓, Hepburn: Hotaru no Haka) is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nos<span id="dots">...</span><span id="more">aka. It was written and directed by Isao Takahata, and animated by Studio Ghibli for Shinchosha Publishing. The film stars Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara and Akemi Yamaguchi. Set in the city of Kobe, Japan in June 1945, it tells the story of two siblings and war orphans, Seita and Setsuko, and their desperate struggle to survive during the final months of the Second World War. Grave of the Fireflies has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation.</span>
+      </p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>   
     </div>
     </div>
   </div>
@@ -95,6 +96,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- End page content -->
 </div>
+
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
 
 </body>
 </html>
