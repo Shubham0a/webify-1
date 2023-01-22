@@ -1,57 +1,97 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Horror movies</title>
+<title>Animated movies | Binge watch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
 </head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-<body>
 
-    <center>
-        <h1><strong>Horror movies</strong></h1>
-    </center>
-    <div>
-        <a href="thing.html">
-            <h3>5. The Thing</h3>
-            <img width="250px" height="250px" src="https://images-na.ssl-images-amazon.com/images/I/61Mf%2B-TcV8L.jpg" alt="">
-        </a>
-        <p>A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.</p>
-    </div>
-  
-   <div>
-       <a href="tumbbad.html">
-            <h3>4. Tumbbad</h3>
-            <img width="250px" height="250px"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s" alt="">
-        </a>
-        <p>A mythological story about a goddess who created the entire universe. The plot revolves around the consequences when humans build a temple for her first-born.</p>
-    </div>
-  
-   <div>
-       <a href="shining.html">
-            <h3>3. The Shining</h3>
-            <img width="250px" height="250px" src="https://alternativemovieposters.com/wp-content/uploads/2022/10/Stella-Ygris_Shining.jpg" alt="">
-        </a>
-        <p>A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.</p>
-    </div>
-  
-  <div>
-      <a href="psycho.html">
-            <h3>2. Psycho</h3>
-            <img width="250px" height="250px" src="https://i.etsystatic.com/21420603/r/il/81fd11/2782690640/il_fullxfull.2782690640_nn4r.jpg" alt="">
-        </a>
-        <p>A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.</p>
-    </div>
-  
-  <div>
-      <a href="alien.html">
-            <h3>1. Alien</h3>
-            <img width="250px" height="250px" src="https://cdn.shopify.com/s/files/1/0969/9128/products/alien--covenant-the-official-collector--s-edition-cover-102516_1a9162a0-d5b6-4288-896b-af6caf2c71b6.jpg?v=1514034484" alt="">
-        </a>
-        <p>The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.</p>
-    </div>
 
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+
+  <center>
+    <h1><strong>Animated movies</strong></h1>
+  </center>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container">
+      <a href="spider_man_into_spider_verse.html"><img src="https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg" alt="spider man" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>5. Spider-Man: Into the Spider-Verse (2018)</b></p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt corrupti officiis modi similique quam nemo nostrum explicabo consectetur, magnam sapiente quas aliquam iusto libero blanditiis maxime est in eos soluta!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="your_name.html"><img src="https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" alt="Poster" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>4. Your Name (2016)</b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident placeat quibusdam repellendus inventore saepe, dolorum veritatis est laudantium impedit cupiditate, numquam voluptas officiis corrupti reiciendis fugit, explicabo dignissimos optio amet.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="grave_of_fireflies.html"><img src="https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg" alt="Poster" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>5. Spider-Man: Into the Spider-Verse (2018)</b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatibus, architecto minus neque, reprehenderit ipsa rem fugiat veritatis itaque, velit tenetur deleniti corporis repellendus atque repellat aliquam impedit aut consectetur?</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="grave_of_fireflies.html"><img src="https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg" alt="Poster" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>3. Grave of the Fireflies (1988)</b></p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt corrupti officiis modi similique quam nemo nostrum explicabo consectetur, magnam sapiente quas aliquam iusto libero blanditiis maxime est in eos soluta!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="the_lion_king.html"><img src="https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg" alt="Poster" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>2. The Lion King (1994)</b></p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt corrupti officiis modi similique quam nemo nostrum explicabo consectetur, magnam sapiente quas aliquam iusto libero blanditiis maxime est in eos soluta!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="spirited_away.html"><img src="https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Poster" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>1. Spirited Away (2001)</b></p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt corrupti officiis modi similique quam nemo nostrum explicabo consectetur, magnam sapiente quas aliquam iusto libero blanditiis maxime est in eos soluta!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  
+  <div class="w3-black w3-center w3-padding-24">&copy;Petrichor<br><a href="../About.html" title="W3.CSS" target="_blank" class="w3-hover-opacity">About us</a></div>
+
+<!-- End page content -->
+</div>
 
 </body>
-
 </html>
